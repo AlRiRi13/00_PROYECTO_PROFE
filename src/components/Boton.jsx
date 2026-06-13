@@ -1,12 +1,15 @@
 // Boton es un componente visual muy sencillo.
-// De momento no tiene onClick porque los eventos se explicaran mas adelante.
-function Boton() {
+// Recibe por props el texto a mostrar (text) y la funcion a ejecutar al pulsar (onClick).
+function Boton({ text, onClick }) {
   return (
-    <button className="boton" type="button">
-      Ver temario
+    <button className="boton" type="button" onClick={onClick}>
+      {text}
     </button>
   )
 }
 
 // Exportamos Boton para poder usarlo dentro de la pagina Inicio.
 export default Boton
+
+
+

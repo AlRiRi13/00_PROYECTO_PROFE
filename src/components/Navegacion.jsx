@@ -18,6 +18,18 @@ function Navegacion() {
       <Link to="/contacto">
         Contacto
       </Link>
+
+      {/* to="/Sobrenosotros" lleva a la pagina Sobre Nosotros, declarada en AppRoutes.jsx. */}
+      <Link to="/SobreNosotros">
+        Sobre nosotros
+      </Link>
+
+      {/* to="/Sobrenosotros" lleva a la pagina Sobre Nosotros, declarada en AppRoutes.jsx. */}
+      <Link to="/dondeestamos">
+        ¿Dónde estamos?
+      </Link>
+
+
     </nav>
   )
 }
